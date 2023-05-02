@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mainViewModel = new ViewModelProvider(this).get(MainViewModel.class);
         initViews();
+        //new Button njhjkf
+        //fghfghj
         notesAdapter = new NotesAdapter();
         recyclerViewNotes.setAdapter(notesAdapter);
 
